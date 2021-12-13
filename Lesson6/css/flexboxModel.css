@@ -1,0 +1,75 @@
+body {
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size:12pt;
+    width:75%;
+	margin-top:5%;
+ 	background-image:url('../media/discGolfSunset.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer p{
+    float:none;
+    clear:both;
+    background-color:rgb(52, 52, 105); 
+    color:white; 
+    text-align:center;
+    border:10px silver inset;
+}
+header{
+	background-color:rgb(52, 52, 105);
+	padding:10px;
+	margin-top:0px;
+    border:10px silver inset;
+}
+aside{
+	color:rgb(52, 52, 105);
+	background-color:rgb(216, 164, 53);
+	border:solid black 2px;
+	padding:10px;
+	position:sticky;
+	top:50px;
+    text-align: center;
+}
+
+h1 {
+    text-align:center; 
+    font-size:2em;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    text-shadow:1px 1px black;
+}
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color:mediumblue;
+    text-align:center;
+    text-shadow:1px 1px rgb(155, 52, 91);
+}
+a:link {
+    color:rgb(43, 75, 180); 
+    text-decoration: underline; 
+}
+a:active {
+    color:maroon; 
+    text-decoration: underline;
+}
+a:visited {
+    color:darkblue; 
+    text-decoration: underline; 
+}
+a:hover {
+    color: white; 
+    background-color: rgb(86, 18, 150); 
+    text-decoration:none; 
+}
+#parentBox{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.child{
+flex: 1;
+background-color:rgb(243, 199, 105);
+border:10px silver inset;
+padding:2%;
+text-align:center;
+}
